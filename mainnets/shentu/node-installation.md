@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-shentu">
 # Shentu Node Installation
 </div>
-###### Chain ID: `shentu-2.2` | Current Node Version: `v2.14.0` | Custom Port: `9`
+<span className="sub-lines"> 
+Chain ID: `shentu-2.2` | Node Version: `v2.14.0` | Custom Port: `9`
+</span>
+
 
 <Tabs>
 
@@ -152,7 +155,7 @@ sudo systemctl daemon-reload && sudo systemctl enable shentud && sudo systemctl 
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/mainnets/shentu_auto)

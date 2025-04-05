@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-cardchain">
 # Cardchain Upgrade
 </div>
-###### Chain ID: `cardtestnet-12` | Current Node Version: `v0.16.0`
+<span className="sub-lines"> 
+Chain ID: `cardtestnet-12` | Node Version: `v0.16.0`
+</span>
 
 ## Manual Upgrade
 

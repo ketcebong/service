@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-empeiria">
 # Empeiria Upgrade
 </div>
-###### Chain ID: `empe-testnet-2` | Current Node Version: `v0.2.2`
+<span className="sub-lines"> 
+Chain ID: `empe-testnet-2` | Node Version: `v0.2.2`
+</span>
 
 ## Manual Upgrade
 

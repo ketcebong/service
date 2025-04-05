@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-selfchain">
 # Selfchain Useful Commands
 </div>
-###### Chain ID: `self-1` | Current Node Version: `v1.0.1`
+<span className="sub-lines"> 
+Chain ID: `self-1` | Node Version: `v1.0.1`
+</span>
+
 :::note
 First You Need Set Variabels
 :::

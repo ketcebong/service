@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-regen">
 # Regen Useful Commands
 </div>
-###### Chain ID: `regen-1` | Current Node Version: `v5.1.0`
+<span className="sub-lines"> 
+Chain ID: `regen-1` | Node Version: `v5.1.0`
+</span>
 
 :::note
 First You Need Set Variabels

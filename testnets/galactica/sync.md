@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-galactica">
 # Galactica Sync
 </div>
-###### Chain ID: `galactica_9302-1` | Current Node Version: `v0.1.2`
+<span className="sub-lines"> 
+Chain ID: `galactica_9302-1` | Node Version: `v0.1.2`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart galacticad && sudo journalctl -fu galacticad -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

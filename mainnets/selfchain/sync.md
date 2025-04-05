@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-selfchain">
 # Selfchain Sync
 </div>
-###### Chain ID: `self-1` | Current Node Version: `v1.0.1`
+<span className="sub-lines"> 
+Chain ID: `self-1` | Node Version: `v1.0.1`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart selfchaind && sudo journalctl -fu selfchaind -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

@@ -10,8 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-symphony">
 # Symphony Sync
 </div>
-###### Chain ID: `symphony-testnet-4` | Current Node Version: `v0.4.1`
-
+<span className="sub-lines"> 
+Chain ID: `symphony-testnet-4` | Node Version: `v0.4.1`
+</span>
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
 
@@ -60,7 +61,7 @@ sudo systemctl restart symphonyd && sudo journalctl -fu symphonyd -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

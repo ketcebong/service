@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-warden">
 # Warden Sync
 </div>
-###### Chain ID: `chiado_10010-1` | Current Node Version: `v0.6.2`
+<span className="sub-lines"> 
+Chain ID: `chiado_10010-1` | Node Version: `v0.6.2`
+</span>
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
 
@@ -59,7 +61,7 @@ sudo systemctl restart wardend && sudo journalctl -fu wardend -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

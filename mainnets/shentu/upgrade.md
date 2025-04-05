@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-shentu">
 # Shentu Upgrade
 </div>
-###### Chain ID: `shentu-2.2` | Current Node Version: `v2.14.0`
+<span className="sub-lines"> 
+Chain ID: `shentu-2.2` | Node Version: `v2.14.0`
+</span>
 
 ## Manual Upgrade
 

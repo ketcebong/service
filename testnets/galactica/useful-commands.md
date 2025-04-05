@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-galactica">
 # Galactica Useful Commands
 </div>
-###### Chain ID: `galactica_9302-1` | Current Node Version: `v0.1.2`
+<span className="sub-lines"> 
+Chain ID: `galactica_9302-1` | Node Version: `v0.1.2`
+</span>
 
 :::note
 First You Need Set Variabels

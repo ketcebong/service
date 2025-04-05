@@ -9,7 +9,7 @@ import { Icon } from "@iconify/react"; // Import the entire Iconify library.
 # Atomone 
 </div>
 <!-- deskripsi -->
-Atomone: The vision behind this AtomOne fork is to be an alternative minimal fork of Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies, and also to operate as a political party base in relation to Gaia. We strive to complement the broader Cosmos ecosystem while introducing innovative solutions and perspectives. Our goals are not just to resolve current challenges but are also to set a new precedent for adaptive and responsive self-organization in the multichain multitoken universe that we call the Cosmos.
+Atomone: The vision behind this AtomOne fork is to be an alternative minimal fork of Gaia ("cosmoshub4") running alongside Gaia to prepare for all contingencies, and also to operate as a political party base in relation to Gaia. We strive to complement the broader Cosmos ecosystem while introducing innovative solutions and perspectives. Our goals are not just to resolve challenges but are also to set a new precedent for adaptive and responsive self-organization in the multichain multitoken universe that we call the Cosmos.
 
 <!-- Sosmed links -->
 

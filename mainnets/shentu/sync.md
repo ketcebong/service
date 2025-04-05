@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-shentu">
 # Shentu Sync
 </div>
-###### Chain ID: `shentu-2.2` | Current Node Version: `v2.14.0`
+<span className="sub-lines"> 
+Chain ID: `shentu-2.2` | Node Version: `v2.14.0`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart shentud && sudo journalctl -fu shentud -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

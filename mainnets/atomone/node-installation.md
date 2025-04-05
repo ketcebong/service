@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-atomone">
 # Atomone Node Installation
 </div>
-###### Chain ID: `atomone-1` | Current Node Version: `v1.1.2` | Custom Port: `12`
+<!-- <p></p> -->
+<span className="sub-lines"> 
+Chain ID: `atomone-1` | Node Version: `v1.1.2` | Custom Port: `12`
+</span>
 
 <Tabs>
 
@@ -151,7 +154,7 @@ sudo systemctl daemon-reload && sudo systemctl enable atomoned && sudo systemctl
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/mainnets/atomone_auto)

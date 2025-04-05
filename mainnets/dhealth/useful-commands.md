@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-dhealth">
 # Dhealth Useful Commands
 </div>
-###### Chain ID: `dhealth` | Current Node Version: `v1.0.0`
+<span className="sub-lines"> 
+Chain ID: `dhealth` | Node Version: `v1.0.0`
+</span>
 
 :::note
 First You Need Set Variabels

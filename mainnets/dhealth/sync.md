@@ -10,8 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-dhealth">
 # Dhealth Sync
 </div>
-###### Chain ID: `dhealth` | Current Node Version: `v1.0.0`
-
+<span className="sub-lines"> 
+Chain ID: `dhealth` | Node Version: `v1.0.0`
+</span>
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
 
@@ -60,7 +61,7 @@ sudo systemctl restart dhealthd && sudo journalctl -fu dhealthd -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

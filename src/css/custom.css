@@ -87,6 +87,17 @@ a {
   }
   .h1-with-icon h1 {
     padding-left: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .tabs__item {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .sub-lines {
+    font-size: 0.65rem;
+    font-weight: bold;
+    /* text-size: 0.1rem; */
   }
 }
 

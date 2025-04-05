@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-dhealth">
 # Dhealth Node Installation
 </div>
-###### Chain ID: `dhealth` | Current Node Version: `v1.0.0` | Custom Port: `5`
+<span className="sub-lines"> 
+Chain ID: `dhealth` | Node Version: `v1.0.0` | Custom Port: `5`
+</span>
 
 <Tabs>
 
@@ -159,7 +161,7 @@ sudo systemctl daemon-reload && sudo systemctl enable dhealthd && sudo systemctl
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/mainnets/dhealth_auto)

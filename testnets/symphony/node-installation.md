@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-symphony">
 # Symphony Node Installation
 </div>
-###### Chain ID: `symphony-testnet-4` | Current Node Version: `v0.4.1` | Custom Port: `27`
+<span className="sub-lines"> 
+Chain ID: `symphony-testnet-4` | Node Version: `v0.4.1` | Custom Port: `27`
+</span>
 
 <Tabs>
 
@@ -153,7 +155,7 @@ sudo systemctl daemon-reload && sudo systemctl enable symphonyd && sudo systemct
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/symphony_auto)

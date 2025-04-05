@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-galactica">
 # Galactica Upgrade
 </div>
-###### Chain ID: `galactica_9302-1` | Current Node Version: `v0.1.2`
+<span className="sub-lines"> 
+Chain ID: `galactica_9302-1` | Node Version: `v0.1.2`
+</span>
 
 ## Manual Upgrade
 

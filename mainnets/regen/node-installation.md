@@ -10,8 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-regen">
 # regen Node Installation
 </div>
-###### Chain ID: `regen-1` | Current Node Version: `v5.1.0` | Custom Port: `7`
-
+<span className="sub-lines"> 
+Chain ID: `regen-1` | Node Version: `v5.1.0` | Custom Port: `7`
+</span>
 <Tabs>
 
   <TabItem value="manual installation" label="Manual Installation">
@@ -152,7 +153,7 @@ sudo systemctl daemon-reload && sudo systemctl enable regen && sudo systemctl st
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/mainnets/regen_auto)

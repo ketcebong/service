@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-empeiria">
 # Empeiria Node Installation
 </div>
-###### Chain ID: `empe-testnet-2` | Current Node Version: `v0.2.2` | Custom Port: `23`
+<span className="sub-lines"> 
+Chain ID: `empe-testnet-2` | Node Version: `v0.2.2` | Custom Port: `23`
+</span>
 
 <Tabs>
 
@@ -153,7 +155,7 @@ sudo systemctl daemon-reload && sudo systemctl enable emped && sudo systemctl st
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/empeiria_auto)

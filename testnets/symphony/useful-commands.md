@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-symphony">
 # Symphony Useful Commands
 </div>
-###### Chain ID: `symphony-testnet-4` | Current Node Version: `v0.4.1`
+<span className="sub-lines"> 
+Chain ID: `symphony-testnet-4` | Node Version: `v0.4.1`
+</span>
 
 :::note
 First You Need Set Variabels

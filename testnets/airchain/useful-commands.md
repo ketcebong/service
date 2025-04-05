@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-airchain">
 # Airchain Useful Commands
 </div>
-###### Chain ID: `varanasi-1` | Current Node Version: `v0.3.1`
+<span className="sub-lines"> 
+Chain ID: `varanasi-1` | Node Version: `v0.3.1`
+</span>
 
 :::note
 First You Need Set Variabels

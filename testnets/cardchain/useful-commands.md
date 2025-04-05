@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-cardchain">
 # Cardchain Useful Commands
 </div>
-###### Chain ID: `cardtestnet-12` | Current Node Version: `v0.16.0`
+<span className="sub-lines"> 
+Chain ID: `cardtestnet-12` | Node Version: `v0.16.0`
+</span>
 
 :::note
 First You Need Set Variabels

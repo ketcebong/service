@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-atomone">
 # Atomone Sync
 </div>
-###### Chain ID: `atomone-testnet-1` | Current Node Version: `v1.1.4`
+<span className="sub-lines"> 
+Chain ID: `atomone-testnet-1 | Node Version: `v1.1.2`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart atomoned && sudo journalctl -fu atomoned -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

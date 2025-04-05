@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-dhealth">
 # Dhealth Upgrade
 </div>
-###### Chain ID: `dhealth` | Current Node Version: `v1.0.0`
+<span className="sub-lines"> 
+Chain ID: `dhealth` | Node Version: `v1.0.0`
+</span>
 
 ## Manual Upgrade
 

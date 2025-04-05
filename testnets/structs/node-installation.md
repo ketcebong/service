@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-structs">
 # Structs Node Installation
 </div>
-###### Chain ID: `structstestnet-101` | Current Node Version: `v0.6.0-beta` | Custom Port: `25`
+<span className="sub-lines"> 
+Chain ID: `structstestnet-101` | Node Version: `v0.6.0-beta` | Custom Port: `25`
+</span>
 
 <Tabs>
 
@@ -161,7 +163,7 @@ sudo systemctl daemon-reload && sudo systemctl enable structsd && sudo systemctl
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/structs_auto)

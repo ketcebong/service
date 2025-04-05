@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-empeiria">
 # Empeiria Useful Commands
 </div>
-###### Chain ID: `empe-testnet-2` | Current Node Version: `v0.2.2`
+<span className="sub-lines"> 
+Chain ID: `empe-testnet-2` | Node Version: `v0.2.2`
+</span>
 
 :::note
 First You Need Set Variabels

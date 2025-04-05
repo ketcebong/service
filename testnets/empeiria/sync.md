@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-empeiria">
 # Empeiria Sync
 </div>
-###### Chain ID: `empe-testnet-2` | Current Node Version: `v0.2.2`
+<span className="sub-lines"> 
+Chain ID: `empe-testnet-2` | Node Version: `v0.2.2`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart emped && sudo journalctl -fu emped -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

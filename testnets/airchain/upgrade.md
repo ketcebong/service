@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-airchain">
 # Airchain Upgrade
 </div>
-###### Chain ID: `varanasi-1` | Current Node Version: `v0.3.1`
+<span className="sub-lines"> 
+Chain ID: `varanasi-1` | Node Version: `v0.3.1`
+</span>
 
 ## Manual Upgrade
 

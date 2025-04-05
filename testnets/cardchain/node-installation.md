@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-cardchain">
 # Cardchain Node Installation
 </div>
-###### Chain ID: `cardtestnet-12` | Current Node Version: `v0.16.0` | Custom Port: `21`
+<span className="sub-lines"> 
+Chain ID: `cardtestnet-12` | Node Version: `v0.16.0` | Custom Port: `21`
+</span>
 
 <Tabs>
 
@@ -150,7 +152,7 @@ sudo systemctl daemon-reload && sudo systemctl enable Cardchaind && sudo systemc
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/cardchain_auto)

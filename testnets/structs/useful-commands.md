@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-structs">
 # Structs Useful Commands
 </div>
-###### Chain ID: `structstestnet-101` | Current Node Version: `v0.6.0-beta`
+<span className="sub-lines"> 
+Chain ID: `structstestnet-101` | Node Version: `v0.6.0-beta`
+</span>
 
 :::note
 First You Need Set Variabels

@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-atomone">
 # Atomone Useful Commands
 </div>
-###### Chain ID: `atomone-testnet-1 | Current Node Version: `v1.1.2`
+<span className="sub-lines"> 
+Chain ID: `atomone-testnet-1 | Node Version: `v1.1.2`
+</span>
 
 :::note
 First You Need Set Variabels

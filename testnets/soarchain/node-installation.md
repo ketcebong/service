@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-soarchain">
 # Soarchain Node Installation
 </div>
-###### Chain ID: `soarchaintestnet` | Current Node Version: `v0.2.9` | Custom Port: `37`
+<span className="sub-lines"> 
+Chain ID: `soarchaintestnet` | Node Version: `v0.2.9` | Custom Port: `37`
+</span>
 
 <Tabs>
 
@@ -151,7 +153,7 @@ sudo systemctl daemon-reload && sudo systemctl enable soarchaind && sudo systemc
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/soarchain_auto)

@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-warden">
 # Warden Upgrade
 </div>
-###### Chain ID: `chiado_10010-1` | Current Node Version: `v0.6.2`
+<span className="sub-lines"> 
+Chain ID: `chiado_10010-1` | Node Version: `v0.6.2`
+</span>
 
 ## Manual Upgrade
 

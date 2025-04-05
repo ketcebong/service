@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-airchain">
 # Airchain Sync
 </div>
-###### Chain ID: `varanasi-1` | Current Node Version: `v0.3.1`
+<span className="sub-lines"> 
+Chain ID: `varanasi-1` | Node Version: `v0.3.1`
+</span>
 
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
@@ -60,7 +62,7 @@ sudo systemctl restart junctiond && sudo journalctl -fu junctiond -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-warden">
 # Warden Useful Commands
 </div>
-###### Chain ID: `chiado_10010-1` | Current Node Version: `v0.6.2`
+<span className="sub-lines"> 
+Chain ID: `chiado_10010-1` | Node Version: `v0.6.2`
+</span>
 
 :::note
 First You Need Set Variabels

@@ -10,8 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-structs">
 # Structs Sync
 </div>
-###### Chain ID: `structstestnet-101` | Current Node Version: `v0.6.0-beta`
-
+<span className="sub-lines"> 
+Chain ID: `structstestnet-101` | Node Version: `v0.6.0-beta`
+</span>
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
 
@@ -60,7 +61,7 @@ sudo systemctl restart structsd && sudo journalctl -fu structsd -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-warden">
 # Warden Node Installation
 </div>
-###### Chain ID: `chiado_10010-1` | Current Node Version: `v0.6.2` | Custom Port: `29`
+<span className="sub-lines"> 
+Chain ID: `chiado_10010-1` | Node Version: `v0.6.2` | Custom Port: `29`
+</span>
 
 <Tabs>
 
@@ -153,7 +155,7 @@ sudo systemctl daemon-reload && sudo systemctl enable wardend && sudo systemctl 
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/warden_auto)

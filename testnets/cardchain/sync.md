@@ -10,8 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-cardchain">
 # Cardchain Sync
 </div>
-###### Chain ID: `cardtestnet-12` | Current Node Version: `v0.16.0`
-
+<span className="sub-lines"> 
+Chain ID: `cardtestnet-12` | Node Version: `v0.16.0`
+</span>
 <Tabs>
   <TabItem value="snapshot" label="Snapshot" default>
 
@@ -60,7 +61,7 @@ sudo systemctl restart Cardchaind && sudo journalctl -fu Cardchaind -o cat
 ```
 
   </TabItem>
-  <TabItem class="tab" value="stateSync" label="State Sync">
+  <TabItem value="state sync" label="State Sync">
 
 ## State Sync
 

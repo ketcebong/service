@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-soarchain">
 # Soarchain Upgrade
 </div>
-###### Chain ID: `soarchaintestnet` | Current Node Version: `v0.2.9`
+<span className="sub-lines"> 
+Chain ID: `soarchaintestnet` | Node Version: `v0.2.9`
+</span>
 
 ## Manual Upgrade
 

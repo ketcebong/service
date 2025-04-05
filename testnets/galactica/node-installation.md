@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-galactica">
 # Galactica Node Installation
 </div>
-###### Chain ID: `galactica_9302-1` | Current Node Version: `v0.1.2` | Custom Port: `32`
+<span className="sub-lines"> 
+Chain ID: `galactica_9302-1` | Node Version: `v0.1.2` | Custom Port: `32`
+</span>
 
 <Tabs>
 
@@ -153,7 +155,7 @@ sudo systemctl daemon-reload && sudo systemctl enable galacticad && sudo systemc
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/galactica_auto)

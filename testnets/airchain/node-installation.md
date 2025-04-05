@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-airchain">
 # Airchain Node Installation
 </div>
-###### Chain ID: `varanasi-1` | Current Node Version: `v0.3.1` | Custom Port: `20`
+<span className="sub-lines"> 
+Chain ID: `varanasi-1` | Node Version: `v0.3.1` | Custom Port: `20`
+</span>
+
 
 <Tabs>
 
@@ -158,7 +161,7 @@ sudo systemctl daemon-reload && sudo systemctl enable junctiond && sudo systemct
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/testnets/airchain_auto)

@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-shentu">
 # Shentu Useful Commands
 </div>
-###### Chain ID: `shentu-2.2` | Current Node Version: `v2.14.0`
+<span className="sub-lines"> 
+Chain ID: `shentu-2.2` | Node Version: `v2.14.0`
+</span>
+
 :::note
 First You Need Set Variabels
 :::

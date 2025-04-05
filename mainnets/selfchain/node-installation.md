@@ -10,7 +10,10 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-selfchain">
 # Selfchain Node Installation
 </div>
-###### Chain ID: `self-1` | Current Node Version: `v1.0.1` | Custom Port: `8`
+
+<span className="sub-lines"> 
+Chain ID: `self-1` | Node Version: `v1.0.1` | Custom Port: `8`
+</span>
 
 <Tabs>
 
@@ -151,7 +154,7 @@ sudo systemctl daemon-reload && sudo systemctl enable selfchaind && sudo systemc
 
   </TabItem>
 
-  <TabItem value="auto installation" label="Auto Installation" default>
+  <TabItem value="auto installation" label="Auto Installation">
 
 ```js
 source <(curl -s https://files.shazoe.xyz/auto/mainnets/selfchain_auto)

@@ -48,12 +48,12 @@ function HeaderHero() {
       {/* <SolanaMobileStackLogo /> */}
       <>
         <h3 className={styles.title}>VALIDATOR SERVICES</h3>
-        <p className={styles.tagline}>
+        {/* <p className={styles.tagline}>
           <i>
             We back initiatives that further global progress and are consistent with our ideals. For these projects, we invest a lot of time and money into building up highly available and secure infrastructure. We will continue to monitor
             and support top-notch networks.
           </i>
-        </p>
+        </p> */}
         <div className={styles.buttons}>
           <HomeCallToAction />
         </div>

@@ -7,7 +7,9 @@ sidebar_position: 4
 <div className="h1-with-icon icon-selfchain">
 # Selfchain Upgrade
 </div>
-###### Chain ID: `self-1` | Current Node Version: `v1.0.1`
+<span className="sub-lines"> 
+Chain ID: `self-1` | Node Version: `v1.0.1`
+</span>
 
 ## Manual Upgrade
 

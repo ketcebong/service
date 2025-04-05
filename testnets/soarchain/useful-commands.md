@@ -10,7 +10,9 @@ import TabItem from '@theme/TabItem';
 <div className="h1-with-icon icon-soarchain">
 # Soarchain Useful Commands
 </div>
-###### Chain ID: `soarchaintestnet` | Current Node Version: `v0.2.9`
+<span className="sub-lines"> 
+Chain ID: `soarchaintestnet` | Node Version: `v0.2.9`
+</span>
 
 :::note
 First You Need Set Variabels
