@@ -62,7 +62,7 @@ sudo systemctl restart galacticad && sudo journalctl -fu galacticad -o cat
 ```
 
   </TabItem>
-  <TabItem value="state sync" label="State Sync">
+  <TabItem value="statesync" label="StateSync">
 
 ## State Sync
 

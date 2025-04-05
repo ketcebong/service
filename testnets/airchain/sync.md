@@ -62,7 +62,7 @@ sudo systemctl restart junctiond && sudo journalctl -fu junctiond -o cat
 ```
 
   </TabItem>
-  <TabItem value="state sync" label="State Sync">
+  <TabItem value="statesync" label="StateSync">
 
 ## State Sync
 

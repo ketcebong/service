@@ -61,7 +61,7 @@ sudo systemctl restart dhealthd && sudo journalctl -fu dhealthd -o cat
 ```
 
   </TabItem>
-  <TabItem value="state sync" label="State Sync">
+  <TabItem value="statesync" label="StateSync">
 
 ## State Sync
 
