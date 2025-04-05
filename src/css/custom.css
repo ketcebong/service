@@ -1,0 +1,133 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+a {
+  margin-right: 1rem;
+}
+
+.sidebar-section-with-icon {
+  background-repeat: no-repeat;
+  background-position: 10px 4px;
+  background-size: 124px 124px;
+}
+
+.sidebar-section-with-icon .menu__list-item-collapsible {
+  padding-left: 30px;
+}
+
+/* tab */
+.tabs__item {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+}
+/* .tab-tagline {
+  color: #2ee813;
+} */
+
+/* endpoint */
+.endpoints-online {
+  padding-top: 0.3rem;
+  margin-top: 2rem;
+  color: #2ee813;
+}
+.endpoints-offline {
+  padding-top: 0.3rem;
+  margin-top: 2rem;
+  color: #e83513;
+}
+.endpoints {
+  font-size: 1.2rem;
+}
+
+/* Headers */
+.h1-with-icon {
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  background-size: 3rem 3rem;
+}
+
+.h1-with-icon h1 {
+  padding-left: 3.5rem;
+}
+
+@media (max-width: 576px) {
+  .h1-with-icon {
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    background-size: 2rem 2rem;
+  }
+  .h1-with-icon h1 {
+    padding-left: 2.5rem;
+  }
+}
+
+.icon-atomone {
+  background-image: url("../../static/img/atomone-icon.svg");
+}
+
+.icon-dhealth {
+  background-image: url("../../static/img/dhealth-icon.svg");
+}
+.icon-regen {
+  background-image: url("../../static/img/regen-icon.svg");
+}
+
+.icon-selfchain {
+  background-image: url("../../static/img/selfchain-icon.svg");
+}
+.icon-shentu {
+  background-image: url("../../static/img/shentu-icon.svg");
+}
+
+.icon-airchain {
+  background-image: url("../../static/img/airchain-icon.svg");
+}
+
+.icon-empeiria {
+  background-image: url("../../static/img/empeiria-icon.svg");
+}
+
+.icon-warden {
+  background-image: url("../../static/img/warden-icon.svg");
+}
+
+.icon-soarchain {
+  background-image: url("../../static/img/soarchain-icon.svg");
+}
+
+.icon-structs {
+  background-image: url("../../static/img/structs-icon.svg");
+}
+
+.icon-symphony {
+  background-image: url("../../static/img/symphony-icon.svg");
+}
